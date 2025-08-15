@@ -1,6 +1,8 @@
 #include <stdio.h>
 #define SIZE 5
 int a[] = {1, 2, 3, 4, 5};
+// int a[] = {5, 4, 3, 2, 1}; // 20 10
+// int a[] = {15,6,90,8,17};
 
 void bubbleSort()
 {
@@ -10,7 +12,7 @@ void bubbleSort()
     int count = 0;
     for (x = 0; x < SIZE; x++) // SIZE {0 1 2 3 4} 5
     {
-        for (i = 0; i < SIZE - 1; i++) // SIZE {0 1 2 3 } 4
+        for (i = 0; i < SIZE; i++) // SIZE {0 1 2 3 } 4
         {
             count++;
             if (a[i] > a[i + 1])
@@ -38,7 +40,7 @@ void bubbleSort2()
     for (x = 0; x < SIZE && swap == 1; x++) // SIZE {0 1 2 3 4} 5
     {
         swap = 0;
-        for (i = 0; i < SIZE - 1; i++) // SIZE {0 1 2 3 } 4
+        for (i = 0; i < SIZE - 1 - x; i++) // SIZE {0 1 2 3 } 4
         {
             count++;
             if (a[i] > a[i + 1])
@@ -60,6 +62,6 @@ void bubbleSort2()
 int main()
 {
 
-    bubbleSort(); //
+    bubbleSort2(); //
     return 0;
 }
