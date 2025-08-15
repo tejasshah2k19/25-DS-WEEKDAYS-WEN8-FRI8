@@ -1,0 +1,12 @@
+Array -> 
+        collection of same type of data 
+
+
+        int a[5]; // 5 elements 
+
+index -> subscript -> 
+start 0 
+end size-1 
+0 1 2 3 4 
+bytes -> int a[5] => 4 byte * 5 => 20 byte 
+-------------------------------------------------------------------------
