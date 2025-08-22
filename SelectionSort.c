@@ -27,9 +27,12 @@ void selectionSort()
             }
         }
         // swap
-        tmp = a[j];
-        a[j] = a[min];
-        a[min] = tmp;
+        if (min != j)
+        {
+            tmp = a[j];
+            a[j] = a[min];
+            a[min] = tmp;
+        }
     }
 }
 
