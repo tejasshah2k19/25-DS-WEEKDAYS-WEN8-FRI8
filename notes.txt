@@ -16,6 +16,63 @@ bubble vs selection vs insertion
 
 insertion sort --> 
 
+---------------------------------------------------------------------------------------------------
+                                                DS 
+                Linear DS                                                       Non Linear 
+
+                *Array                                                           Tree
+                stack                                                           Graph
+                queue
+                Linked List
+
+                sorting 
+                        *bubble *selection *insertion merge quick 
+                searching
+                        Linear binary  
+
+---------------------------------------------------------------------------------------------------
+
+        
+        Stack -> 
+                        LIFO -> Last In First Out 
+
+        whats app -> sms -> 
+                        9 
+                        9.15
+                        9.20
+
+        call logs --> 
+        history --> 
+        recursion --> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
