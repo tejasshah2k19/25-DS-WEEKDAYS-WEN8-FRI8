@@ -41,6 +41,13 @@ void display()
     }
 }
 
+void peep(int location)
+{
+    int index = top - location + 1;
+
+    printf(" %d", stack[index]);
+}
+
 int main()
 {
 

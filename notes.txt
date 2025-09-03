@@ -21,7 +21,7 @@ insertion sort -->
                 Linear DS                                                       Non Linear 
 
                 *Array                                                           Tree
-                stack                                                           Graph
+                *stack                                                           Graph
                 queue
                 Linked List
 
@@ -44,6 +44,43 @@ insertion sort -->
         call logs --> 
         history --> 
         recursion --> 
+
+
+---------------------------------------------------------------------------------------------------
+
+Stack -> use -> () [][][][]   {(({}))}
+
+
+stack --> character --> create a stack -> character->  push pop -> logic -> brackets -> ? 
+
+
+AK 47 -> border -> 
+
+Java --> 
+
+stack -> character 
+
+
+() -> valid 
+({}) -> valid 
+
+([][]) -> valid 
+
+ 
+ 
+
+({[{}{}{}}})
+---------------------------------------------------------------------------------------------------
+Queue -> FiFo -> 
+
+simple queue -> 
+
+
+
+
+
+
+
 
 
 
