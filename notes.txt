@@ -75,6 +75,22 @@ Queue -> FiFo ->
 
 simple queue -> 
 
+---------------------------------------------------------------------------------------------------
+
+infix -> prefix 
+infix -> postfix 
+
+a+b*c-d/f 
+
+
+
+A +  (B + C) *   D
+
+A + B * (C ^ D   - G / H)
+
+A + B * (C ^ D - E) ^ F + G / H --> prefix 
+
+(A + (B - (C * (D / E ^ F)))) ^ (G + H)
 
 
 
