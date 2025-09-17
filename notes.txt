@@ -22,7 +22,7 @@ insertion sort -->
 
                 *Array                                                           Tree
                 *stack                                                           Graph
-                queue
+                *queue
                 Linked List
 
                 sorting 
@@ -95,15 +95,57 @@ A + B * (C ^ D - E) ^ F + G / H --> prefix
 
 
 
+---------------------------------------------------------------------------------------------------
+
+queue ->   simple queue 
+           circular queue 
+           double ended queue {enQ,deQ both side}
+                IRD -> input restricted DQeueu {enQ:single,deQ:both}
+                ORD -> output restricted DQeueu {enQ:both,deQ:single}
+           priority queue ->
+
+---------------------------------------------------------------------------------------------------
+
+ Linked List : DMA : dynamic list
+
+---------------------------------------------------------------------------------------------------
+
+function*** 
+structure{task} 
+pointer 
+DMA 
+
+---------------------------------------------------------------------------------------------------
 
 
+int a[5]; 
+//2 items -> 3 w 
+
+structure ---> collection of diff. type of data 
 
 
+struct {
 
+};
 
+struct student {
+        char name[30];
+        int m,s,e;
+        float perc; 
+        char grade;
+};
+ 
 
+ struct student s; 
+ struct student x; 
 
+ dot -> 
+        s.m = 98; 
+        s.s = 80;
 
+three students 
+
+---------------------------------------------------------------------------------------------------
 
 
 
