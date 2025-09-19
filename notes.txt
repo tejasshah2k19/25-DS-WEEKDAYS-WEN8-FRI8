@@ -148,6 +148,120 @@ three students
 ---------------------------------------------------------------------------------------------------
 
 
+pointer ===>
+
+        int a ; //4 byte //  a value -> 10 20 30 60 
+        a = 10; // any value  
+
+        int *p; // pointer variable -> value 
+        p = &a ; // memory address -> address of another variable 
+         
+        & -> address of 
+
+
+pointer -> structure 
+
+
+
+---------------------------------------------------------------------------------------------------
+
+int a; // 4 byte 
+
+//
+/
+/
+/
+/
+/
+/// a->4byte -> 
+/
+/
+/
+//
+//
+//end 
+
+
+
+
+
+DMA -> allocate , release 
+
+
+C -> 4 function DMA 
+
+calloc()
+malloc() 
+
+free()
+realloc() 
+
+----------------------------------------------------------
+stdlib.h 
+
+calloc()  -> 
+malloc()  ->
+
+single -> block -> malloc -> 200 byte 
+
+multiple -> n -> calloc -> 200 byte => 20,10 byte 
+
+----------------------------------------------------------
+
+calloc -> array 
+malloc -> struct , single {int a}, 
+
+
+----------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
