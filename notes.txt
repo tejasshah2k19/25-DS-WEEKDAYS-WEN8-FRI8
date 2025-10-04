@@ -239,8 +239,24 @@ pointer ->
 
 
 
+Linked List ->
+                        1) structure 
+                        2) pointer 
+                        3) DMA functions 
+                        4) function 
 
 
+
+
+----------------------------------------------------------
+
+array -> list -> size fix -> size ? 
+dynamic list-> 
+                        when you required ? allocate 
+                        when you dont required ? free 
+self referntial structure 
+
+----------------------------------------------------------
 
 
 
