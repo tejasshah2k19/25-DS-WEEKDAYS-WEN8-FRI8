@@ -215,8 +215,27 @@ malloc -> struct , single {int a},
 ----------------------------------------------------------
 
 
+struct -> 
+dot -> 
+array of struct -> 
 
 
+
+DMA-> 
+        calloc() -> allocate  
+        malloc() -> allocate 
+        free() ->   release 
+        realloc() -> resizing 
+
+stdlib.h 
+
+----------------------------------------------------------
+
+pointer -> 
+
+
+
+----------------------------------------------------------
 
 
 
