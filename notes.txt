@@ -260,8 +260,39 @@ self referntial structure
 
 
 
+DMA -> allocate ->
+                calloc()
+                malloc()
+
+i have allocated 50bytes and now i want to incrase 50 to 100 ?
+        realloc() 
 
 
+now i am done with task , and want to release all allocated memory? 
+        free() 
+
+
+structure ______________ ? int x ____________ ? int y[] _____________ ? 
+in above data type which function is used to allocate memory? 
+malloc 
+malloc
+calloc 
+
+-------------------------------------------------------------------
+
+linked list -> create -> [   ] -> ? 
+node 
+
+linked list first node -> 
+head , start , first 
+
+how many types of linked list we have ? 
+list out ? 
+
+in single circular node is divided into ____2 data,next_________ part? 
+
+
+-------------------------------------------------------------------
 
 
 
