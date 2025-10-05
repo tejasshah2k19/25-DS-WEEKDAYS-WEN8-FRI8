@@ -70,8 +70,14 @@ void addNodeBEG(int data)
     }
 }
 
-void removeNodeBEG(){
-    //release 
+void removeNodeBEG()
+{
+    // release
+}
+
+
+void searchNode(int key){
+    //
 }
 
 int main()
@@ -91,7 +97,10 @@ int main()
     while (1)
     {
         printf("\n0 For Exit");
-        printf("\n1 For Add Node \n2 For List All Nodes\n3 For Remove Node\n4 for Add Node : Beg\n5 For Remove : BEG\nEnter choice");
+        printf("\n1 For Add Node \n2 For List All Nodes\n3 For Remove Node\n4 for Add Node : Beg\n5 For Remove : BEG");
+
+        printf("\n6 For Search Node ");
+        printf("\nEnter choice");
 
         scanf("%d", &choice);
 
@@ -118,6 +127,11 @@ int main()
         case 5:
             removeNodeBEG();
             break;
+
+        case 6:
+            printf("\nEnter node value that you want to search ?");
+            scanf("%d", &num);
+            searchNode(num); //found not found 
         default:
             break;
         }

@@ -295,7 +295,9 @@ in single circular node is divided into ____2 data,next_________ part?
 -------------------------------------------------------------------
 
 
-
+Single link list : 2 
+https://us02web.zoom.us/rec/share/f_tSHkni60_b8wCz5qR04RzaoPT1jKdmqd9b4gJ-oBCwvnGS6mAAC17pzJ4B8x55.3CqnVEO7fVm0fE9e?startTime=1759666884000
+Passcode: tGQ!2B%8
 
 
 
