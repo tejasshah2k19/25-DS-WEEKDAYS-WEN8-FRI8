@@ -301,9 +301,15 @@ Passcode: tGQ!2B%8
 
 
 
+1) remove odd values from single linked list 
+2) reverse your linked list 
+3) remove all the even index from linked list 
+4) swap pair in linked list 
+        1->2->3->4->5->6
+        2->1->4->3->6->5->
 
-
-
+        1->2->3->4->5->6->7
+        2->1->4->3->6->5->7
 
 
 

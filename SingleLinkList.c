@@ -73,6 +73,9 @@ void addNodeBEG(int data)
 void removeNodeBEG()
 {
     // release
+    struct node *p = head; 
+    head = head->next; 
+    free(p);
 }
 
 
