@@ -316,6 +316,24 @@ Passcode: tGQ!2B%8
 
 
 
+array -> 5 
+
+
+dynamic list -> size X 
+
+add -> ++ 
+remove -> -- 
+
+
+data -> node -> 
+
+
+1) single link list 
+2) double link list 
+3) circular link list 
+
+
+
 
 
 
