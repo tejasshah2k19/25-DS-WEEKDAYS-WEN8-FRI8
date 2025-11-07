@@ -352,6 +352,12 @@ linear / sequiential search /
         int key = 30; // found 
 
 time complexity -> O(n)
+--------------------------------------------------------
+Binary search --> 
+
+
+
+
 
 
 
