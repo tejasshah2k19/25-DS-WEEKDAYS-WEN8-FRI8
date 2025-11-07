@@ -355,10 +355,60 @@ time complexity -> O(n)
 --------------------------------------------------------
 Binary search --> 
 
+--------------------------------------------------------
+completed--->
+array
+stack 
+queue - simple, circular 
+linked list - all 
+
+sort - bubble , selection , insertion 
+searching - linear , binary 
+
+--------------------------------------------------------
+
+backup--> 
+sort - bubble , selection , insertion 
+search - linear , binary 
+linked list 
+
+--------------------------------------------------------
 
 
 
+void sub(){
 
+
+}
+void add(){
+
+        sub(); 
+
+}
+
+
+//recursion -> 
+void mul(){
+
+        mul(); 
+}
+
+Recursion->
+        function calling itself 
+
+BASE CASE - 
+
+condition -> 
+
+
+WHY? 
+
+--------------------------------------------
+
+1) print multiplication table of a num
+2) printNum(5) => 5 4 3 2 1 
+
+--------------------------------------------
 
 
 
