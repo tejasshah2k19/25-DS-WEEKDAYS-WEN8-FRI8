@@ -410,15 +410,108 @@ WHY?
 
 --------------------------------------------
 
+#include <stdio.h>
+
+void fun(int n){//3  2  1  0  
+    if(n == 0) return;
+    printf("%d ", n);//3 2 1   
+    fun(n - 1);
+}
+
+int main(){
+    fun(3);
+}
+
+output : 3 2 1 
+
+--------------------------------------------
 
 
+void fun(int n){ //3  2  1 
+    if(n == 0) return;
+    fun(n-1);
+    printf("%d ", n);
+}
+
+int main(){
+    fun(3);
+}
 
 
+output : 1 2 3 
+
+---------------------------------------
 
 
+int fun(int n){
+    if(n == 1) return 1;
+    return n + fun(n - 1);
+}
+
+int main(){
+    printf("%d", fun(4));
+}
+
+output :  10
+
+---------------------------------------
 
 
+ void fun(int n){
+    if(n == 0) return;
+    printf("%d ", n);
+    fun(n - 1);
+    printf("%d ", n);
+}
 
+int main(){
+    fun(3);
+}
+
+output : 3 2 1 1 2 3 
+
+---------------------------------------
+
+
+#include <stdio.h>
+
+int fun(int n){
+    if(n == 0) return 0;
+    int x = fun(n - 1);
+    printf("%d ", n);
+    return x + n;
+}
+
+int main(){
+    printf("\nSum = %d", fun(4));
+}
+
+output : 1 2 3 4 10
+
+--------------------------------------
+
+int funB(int n);
+
+int funA(int n){
+    if(n <= 0) return 1;
+    return funB(n - 1) + 1;
+}
+
+int funB(int n){
+    if(n <= 0) return 1;
+    return funA(n - 1) + 2;
+}
+
+int main(){
+    printf("%d", funA(3));//5
+}
+------------------------------------------
+
+
+non linear ->
+
+        Tree ->         collection of nodes , hirerchical 
+        
 
 
 
