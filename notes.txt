@@ -513,13 +513,24 @@ non linear ->
         Tree ->         collection of nodes , hirerchical 
         
 
+Binary Tree 
+1) min : 0 max : 2 
 
 
+10      25      17      8       6       32      9
 
+BST -> binary search tree 
+        1) binary tree {min:0 max:2}
+        2) child > parent -> right 
+        3) child < parent -> left 
 
+------------------------------------------
 
+56 84 24 62 74 12 36 89 5 7 
 
+BST
 
+------------------------------------------
 
 
 
