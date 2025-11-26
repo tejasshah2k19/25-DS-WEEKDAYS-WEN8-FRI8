@@ -45,15 +45,15 @@ void inOrder(struct node *root)
     }
 }
 
-    /*
-                    40
+/*
+                40
 
-            30              50
-        
-        25      35      45      60   
-    
-    
-    */
+        30              50
+
+    25      35      45      60
+
+
+*/
 
 void preOrder(struct node *root)
 {
@@ -65,14 +65,43 @@ void preOrder(struct node *root)
     }
 }
 
-void postOrder(struct node *root){
-    if(root != NULL){
+void postOrder(struct node *root)
+{
+    if (root != NULL)
+    {
 
         postOrder(root->left);
         postOrder(root->right);
         printf(" %d ", root->data); // root
-        
     }
+}
+
+int search(struct node *root, int key)
+{
+    if (root != NULL)
+    {
+        if (root->data == key) // 40 == 35 , 30 == 35
+        {
+            return 1;
+        }
+        else if (key > root->data)
+        {
+            search(root->right, key);
+        }
+        else
+        {
+            search(root->left, key);
+        }
+    }
+}
+
+int max(struct node *root)
+{
+    return 0;
+}
+int min(struct node *root)
+{
+    return 0;
 }
 
 int main()
@@ -84,7 +113,7 @@ int main()
     addNode(root, 50);
     addNode(root, 25);
     addNode(root, 35);
- 
+
     addNode(root, 60);
     addNode(root, 45);
 
@@ -97,5 +126,18 @@ int main()
     printf("\nPost Order => ");
     postOrder(root);
 
+    printf("\nsearch => 35 : %d", search(root, 35));
+
+    printf("\nsearch => 305 : %d", search(root, 305));
+
+    printf("\n Max = %d", max(root)); // 60
+    printf("\n Max = %d", min(root)); // 25
+
     return 0;
 }
+//AVL Tree 
+
+//min and max find in  BST 
+//convert your bst to single linked list 
+//take array of 10 numbers , now sort your using BST 
+
