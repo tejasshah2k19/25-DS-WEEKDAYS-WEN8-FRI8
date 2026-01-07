@@ -566,8 +566,38 @@ Graph ->
 
 
 
+Algo DFS 
+
+step 1: start 
+
+step 2: start with initial vertex mark as read 
+
+step 3: visit next adjecent vertext  mark as read 
+
+step 4: repeat step 3 till all vertext mark as read 
+
+step 5: stop 
 
 
+
+
+Algo BFS 
+
+step 1: start 
+
+step 2: start with initial vertex mark as read and add in queue 
+
+step 3: visit all adjecent vertices and mark as read and add in a queue 
+
+step 4: get next vertex from queue and repeat step 3 for next vertex until queue is empty 
+
+
+
+--------------------------------------------------------------------------------------------------
+
+
+
+Graph -> collection of edges and vertex 
 
 
 
