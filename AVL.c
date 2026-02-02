@@ -46,6 +46,22 @@ int calculateBF(struct node *root)
     return lh - rh;
 }
 
+struct node *leftRotate(struct node *root)
+{
+
+    struct node *rootRight = root->right; // 400
+    root->right = rootRight->left;
+    rootRight->left = root;
+    return rootRight;
+}
+
+struct node *rightRotate(struct node *root)
+{
+    struct node *rootLeft = root->left;
+    root->left = rootLeft->right;
+    rootLeft->right = root;
+    return rootLeft;
+}
 struct node *addNode(struct node *root, int data) // 100 , 150
 {
     if (root == NULL)
@@ -69,15 +85,39 @@ struct node *addNode(struct node *root, int data) // 100 , 150
 
     root->height = calculateHeight(root);
 
-     int bf = calculateBF(root);
+    int bf = calculateBF(root);
 
-     if(bf < -1){
-        printf("\n%d RIGHT IMBALANCE",root->data);
-     }
-     if(bf > 1){
-        printf("\n%d LEFT IMBALANCE",root->data);
-        
-     }
+    if (bf < -1)
+    {
+        // RR
+        if (root->right->data > data)
+        {
+            // RL
+            printf("\n%d RIGHT LEFT IMBALANCE", root->data);
+            // root ->300
+            
+        }
+        else
+        {
+            // RR
+            printf("\n%d RIGHT RIGHT IMBALANCE", root->data);
+            return leftRotate(root);
+        }
+    }
+    if (bf > 1)
+    {
+        if (data < root->left->data)
+        {
+            // LL
+            printf("\n%d LEFT LEFT IMBALANCE", root->data);
+            return rightRotate(root);
+        }
+        else
+        {
+            // LR
+            printf("\n%d LEFT RIGHT IMBALANCE", root->data);
+        }
+    }
     return root;
 }
 
@@ -110,6 +150,14 @@ int main()
     first = addNode(first, 500);
     first = addNode(first, 400);
     first = addNode(first, 300);
+    first = addNode(first, 600);
+
+    // RR LL RL LR
+
+    inOrder(first);
+    // printf(" %d ",first->data);
+    // printf(" %d ",first->left->data);
+    // printf(" %d ",first->right->data);
 
     return 0;
 }
