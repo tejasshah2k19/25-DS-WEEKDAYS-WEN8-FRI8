@@ -17,19 +17,15 @@ struct node *addNode(struct node *root, int data)
         root->left = NULL;
         root->right = NULL;
     }
-    else
+    else if (data > root->data)
     {
-
-        if (data > root->data)
-        {
-            // right
-            root->right = addNode(root->right, data);
-        }
-        else
-        {
-            // left
-            root->left = addNode(root->left, data);
-        }
+        // right
+        root->right = addNode(root->right, data);
+    }
+    else if (data < root->data)
+    {
+        // left
+        root->left = addNode(root->left, data);
     }
 
     return root;
@@ -135,9 +131,8 @@ int main()
 
     return 0;
 }
-//AVL Tree 
+// AVL Tree
 
-//min and max find in  BST 
-//convert your bst to single linked list 
-//take array of 10 numbers , now sort your using BST 
-
+// min and max find in  BST
+// convert your bst to single linked list
+// take array of 10 numbers , now sort your using BST
